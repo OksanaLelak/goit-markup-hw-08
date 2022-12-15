@@ -1,0 +1,21 @@
+:root {
+	--card-set-gap: 30px;
+	--primary-text-color: #757575;
+	--title-text-color: #212121;
+	--white-text-color: #FFFFFF;
+	--accent-color: #2196F3;
+	--second-color-logo: #000000;
+	--link-address-bottom-color: rgba(255, 255, 255, 0.6);
+	--hero-background-color: #2F303A;
+	--white-background-color: #FFFFFF;
+	--second-accent-background-color: #F5F4FA;
+	--timing-function: cubic-bezier(0.4, 0, 0.2, 1);
+}
+
+body {
+	/* padding-top: 80px; */
+	font-family: "Roboto", sans-serif;
+	letter-spacing: 0.03em;
+	background-color: var(--white-background-color);
+	color: var(--title-text-color)
+}

@@ -1,0 +1,86 @@
+.team__section {
+	width: auto;
+	padding-top: 94px;
+	padding-bottom: 94px;
+	background-color: var(--second-accent-background-color);
+}
+
+.team__list {
+	display: flex;
+	justify-content: center;
+	flex-wrap: wrap;
+	width: 1200px;
+	margin: 0;
+	padding: 0;
+	gap: 30px;
+	// margin-right: calc(-1 + var(--card-set-gap));
+
+	img {
+		margin-bottom: 30px;
+	}
+}
+
+.team__item {
+	background-color: var(--white-text-color);
+	flex-basis: calc((100% - 90px)/4);
+	// margin-right: var(--card-set-gap);
+	padding-top: 0;
+	padding-bottom: 30px;
+	// width: 270px;
+	box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.12), 0px 1px 1px rgba(0, 0, 0, 0.14), 0px 2px 1px rgba(0, 0, 0, 0.2);
+	border: transparent;
+	border-radius: 0px 0px 4px 4px;
+}
+
+.team__worker {
+	color: var(--title-text-color);
+	margin-bottom: 10px;
+	font-weight: 500;
+	font-size: 16px;
+	/* line-height: 1.18px; */
+	text-align: center;
+}
+
+.team__profession {
+	color: var(--primary-text-color);
+	margin-bottom: 0;
+	font-size: 16px;
+	line-height: 1.18;
+	text-align: center;
+}
+
+.icon__list {
+	display: flex;
+	justify-content: center;
+	gap: 10px;
+}
+
+.icon__item {
+	margin-top: 16px;
+}
+
+.icon__link {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+
+	width: 44px;
+	height: 44px;
+	border-radius: 50%;
+
+	color: #AFB1B8;
+	transition: color 250ms var(--timing-function), background-color 250ms var(--timing-function);
+
+	&:hover,
+	&:focus {
+		background-color: var(--accent-color);
+		color: var(--white-text-color);
+	}
+}
+
+.icon__social {
+	width: 20px;
+	height: 20px;
+	fill: currentColor;
+}
+
