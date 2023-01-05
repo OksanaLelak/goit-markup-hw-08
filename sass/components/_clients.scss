@@ -1,12 +1,38 @@
 .clients {
 	width: auto;
+	padding-top: 60px;
+	padding-bottom: 60px;
+
+	@media screen and (min-width: 768px) {
+		padding-top: 60px;
+		padding-bottom: 60px;
+	}
+
+	@media screen and (min-width: 1200px) {
+		padding-top: 94px;
+		padding-bottom: 94px;
+	}
 }
 
 .clients__list {
 	display: flex;
+	flex-wrap: wrap;
 	justify-content: center;
 	align-items: center;
 	gap: 30px;
+}
+
+.clients__list--item {
+	width: 100%;
+	width: calc((100% - 30px) / 2);
+
+	@media screen and (min-width: 768px) {
+		flex-basis: calc((100% - 60px) / 3);
+	}
+
+	@media screen and (min-width: 1200px) {
+		flex-basis: calc((100% - 150px) / 6);
+	}
 }
 
 .clients__logo--link {
@@ -14,7 +40,7 @@
 	justify-content: center;
 	align-items: center;
 
-	width: 170px;
+	// width: 170px;
 	height: 92px;
 
 	color: #AFB1B8;
@@ -34,6 +60,5 @@
 	fill: currentColor;
 	width: 106px;
 	height: 60px;
-	
 }
 
